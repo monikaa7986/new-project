@@ -1,1 +1,72 @@
-<p>hii i am monika</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  
+    <header>
+        <div class="nav-container">
+            <div class="logo">Translator</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa fa-info-circle"></i> About</a></li>
+                    <li><a href="courses.html"><i class="fa fa-book"></i> Courses</a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <li><a href="address.html"><i class="fa fa-map-marker"></i> Address</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <section class="translator">
+            <div class="title">
+                <h1 class="A">Language Translation System</h1>
+                <p>Translate English to Regional Indian Languages</p>
+            </div>
+            
+             <div class="language-buttons">
+        <!-- Language Selection Button -->
+        <div class="lang-selector">
+            <button id="languageBtn" class="btn">Select Language</button>
+            <div id="languageOptions" class="options">
+                <button class="lang-option" onclick="setLanguage('English')">English</button>
+                <button class="lang-option" onclick="setLanguage('Hindi')">Hindi</button>
+            </div>
+        </div>
+
+        <!-- Translate Button with Options -->
+        <div class="translate-selector">
+            <button id="translateBtn" class="btn">Translate</button>
+            <div id="translateOptions" class="options">
+                <button class="translate-option">Hindi</button>
+                <button class="translate-option">Punjabi</button>
+                <button class="translate-option">English</button>
+                <button class="translate-option">Telugu</button>
+                <button class="translate-option">Bhojpuri</button>
+                <button class="translate-option">Marathi</button>
+                <button class="translate-option">Gujarati</button>
+                <button class="translate-option">Tamil</button>
+                <button class="translate-option">Kannada</button>
+                <button class="translate-option">Bengali</button>
+            </div>
+        </div>
+    </div>
+
+         
+
+    <footer>
+        <p>&copy; 2025 Language Translation System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
